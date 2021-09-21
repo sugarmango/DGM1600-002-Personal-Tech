@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+background-color: #f57aa352;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#container {
+    width: 1000px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+section {
+    margin: 2rem 0;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+header div img {
+margin: .5rem;
+height: 100px;
+
+}
+.about-me {
+    display: flex;
+}
+
+.profile-pic {
+    width: 260px;
+    height: 260px;
+}
+
+.bio > img {
+    height: 270px;
+}
+
+.intro {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 1rem;
+}
+
+.bio {
+    width: 100%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;  
+}
+
+#namedate {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1rem;
+    padding: .5rem .5rem 1.5rem .5rem;
+    font-size: larger;
+    color: #61a9be;
+}
+
+.namedate {
+    display: flex;
+    justify-content: space-between;
+    color: #61a9be;
+}
+
+#namedate > h2 {
+    font-size: 2rem;
+    font-family: Cambria, serif;
+    position: relative;
+    top: -14px;
+}
+
+time {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.choose {
+    background-color: #bbb;
+    padding: 1rem;
+}
+
+#choose {
+    background-color:#686363;
+    margin-left: 1rem;
+    padding: .5rem .5rem 1.5rem .5rem;
+    font-size: larger;
+    align-content: space-between;
+}
+
+#choose h4 {
+    margin-bottom: 1rem;
+    align-content: space-around;
+    padding-left: 19px;
+    color: #bef2ff;
+}
+
+#choose ul li {
+color: #fff;
+}
+
+.tech {
+    display: flex;
+    justify-content: space-between;
+}
+
+figure {
+max-width: 200px;
+text-align: center;
+}
+
+figure > img {
+    width: 175px;
+    height: 175px;
+
+}
+
+figcaption {
+    text-align: center;
+    font-size: 1rem;
+    position: relative;
+    top: -30px;
+    bottom: 30px;
+    color: #bef2ff;
+    background-color: rgba(3, 3, 3, 0.5);
+    padding: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.excited {
+    color: #fff;
+}
+
+.excited h2 {
+    color: #61a9be;
+    margin: 2rem 0;
+}
+
+.excited div {
+    background-color: #686363;
+    padding: 1rem;
+}
+
+.excited div h4 {
+    color: #bef2ff;
+    margin-bottom: 1rem;
+    font-size: larger;
+}
+
+.excited div p {
+font-size: larger;
+}
+
+footer p {
+    text-align: center;
+    color: #61a9be;
+    margin-bottom: 1.5rem;
+}
+
+img {
+    height: 180px;
+}
+
